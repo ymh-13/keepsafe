@@ -1,0 +1,53 @@
+.movie-card {
+    width: 260px;
+    background-color: var(--card);
+    color: var(--text);
+    border-radius: 18px;
+
+    padding: 16px;
+
+    box-shadow:  0 10px 25px rgba(0,0,0,.05);
+    transition: all .25s ease;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.movie-card:hover{
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,.08);
+}
+
+.movie-poster {
+    width: 100%;
+    height: 300px;
+
+    background-color: var(--poster);
+
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--poster-text);
+    font-weight: bold;
+}
+
+.movie-title {
+    font-family:'Caveat',cursive;
+    font-size:34px;
+    color: var(--text);
+}
+
+.movie-rating {
+    color: var(--primary);
+}
+
+.movie-date,
+.movie-friends {
+    color: var(--text-light);
+}

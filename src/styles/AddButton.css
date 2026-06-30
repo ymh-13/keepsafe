@@ -1,0 +1,28 @@
+.add-button {
+    position: fixed;
+
+    bottom: 30px;
+    right: 30px;
+
+    width: 65px;
+    height: 65px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: var(--primary);
+
+    color: white;
+
+    font-size: 36px;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+    transition: .2s;
+}
+
+.add-button:hover {
+    transform: scale(1.08);
+}
