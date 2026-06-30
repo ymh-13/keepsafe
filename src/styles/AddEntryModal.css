@@ -16,10 +16,10 @@
 
 
 .modal {
-
+    
     width: 420px;
 
-    background:white;
+    background:var(--card);
 
     padding:35px;
 
@@ -32,14 +32,27 @@
     gap:15px;
 
     box-shadow:0 20px 50px rgba(0,0,0,0.2);
+    transition: background-color 0.2s ease, border-color 0.2s ease;
 
 }
 
 
+.modal-movie {
+  background-color: var(--card);
+  border: 1px solid var(--accent);
+}
+
+.modal-series {
+  background-color: var(--series-light);
+  border: 1px solid var(--series);
+}
+
 .modal h2 {
-
+    font-family:'Caveat',cursive;
+    font-weight: 700;
+    font-size: 50px;
     margin:0;
-
+    color: var(--primary-dark);
     text-align:center;
 
 }
@@ -48,7 +61,10 @@
 
 .modal input,
 .modal textarea {
-
+     font-family: "Nunito", "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text);
     padding:12px;
 
     border-radius:12px;
@@ -99,7 +115,8 @@
 
 
 .save-btn {
-
+    font-family: "Nunito", "Inter", sans-serif;
+    font-weight: 600;
     background: var(--primary);
 
     color:white;
@@ -108,7 +125,58 @@
 
 
 .cancel-btn {
-
+    font-family: "Nunito", "Inter", sans-serif;
+    font-weight: 600;
     background:#eee;
 
 }
+
+.type-toggle {
+  display: flex;
+  gap: 0.5rem;
+  background-color: var(--poster);
+  padding: 0.35rem;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+.type-toggle button {
+  flex: 1;
+  border: none;
+  border-radius: 999px;
+  padding: 0.65rem 1rem;
+  background-color: transparent;
+  color: var(--text-light);
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.type-toggle button:hover {
+  transform: translateY(-1px);
+  color: var(--text);
+}
+
+.type-toggle button.active {
+  color: #fffdf9;
+}
+
+.type-toggle button:first-child.active {
+  background-color: var(--primary);
+}
+
+.type-toggle button:last-child.active {
+  background-color: var(--series);
+}
+
+.series-card {
+  background-color: var(--series-light);
+  border: 1px solid var(--series);
+}
+
+.movie-card-type {
+  background-color: #FFF7EF;
+  border: 1px solid var(--accent);
+}
+

@@ -23,6 +23,7 @@
 }
 
 .menu {
+    font-family: "Nunito", "Inter", sans-serif;
     display: flex;
 
     gap: 35px;
@@ -49,6 +50,7 @@
 }
 
 .profile {
+    font-family: "Nunito", "Inter", sans-serif;
     font-weight: bold;
 
     color: var(--text);

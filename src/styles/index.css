@@ -77,6 +77,11 @@
 
     --poster: #EFE7DE;
     --poster-text: #9B8E85;
+
+    --series: #F2B8C6;
+    --series-dark: #D98A9D;
+    --series-light: #FFF0F4;
+    
 }
 
 * {

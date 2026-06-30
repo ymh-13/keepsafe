@@ -4,6 +4,13 @@ body {
   background-color: var(--bakground);
   color: white;
 }
+.app-main {
+    background-color: var(--background);
+
+    min-height: 100vh;
+
+    padding: 40px;
+}
 
 .container {
   text-align: center;

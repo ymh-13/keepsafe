@@ -4,20 +4,21 @@ export const movies = [
     title: "Past Lives",
     rating: 5,
     date: "2024-02-14",
-    group: "With Sarah",
+    group: "Friends",
+    type: "movie",
+    genre: "Romance",
+    mood: "Emotional",
+    notes: "fun"
   },
   {
     id: 2,
-    title: "Everything Everywhere All at Once",
-    rating: 4.5,
-    date: "2024-03-02",
-    group: "Movie Night Group",
-  },
-  {
-    id: 3,
     title: "The Bear",
     rating: 5,
     date: "Unknown date",
     group: "Family",
+    type: "series",
+    genre: "Drama",
+    mood: "Intense",
+    notes: "great"
   },
 ];
