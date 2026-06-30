@@ -1,0 +1,57 @@
+.nav {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 18px 40px;
+
+    background-color: var(--background);
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.logo {
+    font-family:'Caveat',cursive;
+
+    font-size:42px;
+
+    font-weight: bold;
+
+    color:var(--text);
+}
+
+.menu {
+    display: flex;
+
+    gap: 35px;
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+}
+
+.menu li {
+    cursor: pointer;
+
+    font-weight: 600;
+
+    color: var(--primary);
+
+    transition: 0.3s;
+}
+
+.menu li:hover {
+    color: var(--primary-dark);
+}
+
+.profile {
+    font-weight: bold;
+
+    color: var(--text);
+
+    cursor: pointer;
+}

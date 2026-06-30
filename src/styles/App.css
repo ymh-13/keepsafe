@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bakground);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.title {
+  color: var(--primary);
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: var(--text);
+  font-size: 20px;
+}
+
+.get-started-btn {
+  background-color: var(--accent);
+  color: var(--text);
+
+  border: none;
+  border-radius: 12px;
+
+  padding: 12px 24px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.get-started-btn:hover {
+  background-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.movie-grid {
+    display: flex;
+    gap: 24px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    padding: 40px;
+}
